@@ -15512,7 +15512,7 @@ header.header-one .header-top-wrapper .right ul li.last::after {
   border: 1px solid #E9E9E9;
   height: 55px;
   width: 55px;
-  background: #fff;
+  background: var(--color-primary);
 }
 @media only screen and (max-width: 1199px) {
   .heder-two .header-two-container .header-main-wrapper .rts-header-right .menu-area {
@@ -25809,6 +25809,7 @@ body.index-nine .single-case-wrapper {
   transition: 0.3s;
   background-image: url(../images/service/14.png);
   border: 1px solid #1f1f1f;
+  height:100%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .single-service-sm {
@@ -32516,4 +32517,9 @@ form.appoinment-form select option {
 .align-center {
   justify-content: center;
   display: flex;
+}
+.imgwidth {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
 }
