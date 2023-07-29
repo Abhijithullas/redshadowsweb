@@ -20773,7 +20773,9 @@ edit .quantity-edit button {
   border-radius: 5px 5px 0 0;
   transition: 1.3s;
   transform: scale(1);
+  height: 300px;
   width: 100%;
+  object-fit: cover;
 }
 .rts-single-project-one .thumbnail:hover img {
   transform: scale(1.15);
@@ -20784,13 +20786,27 @@ edit .quantity-edit button {
 .rts-single-project-one .thumbnail.three::after {
   content: "03";
 }
+.rts-single-project-one .thumbnail.four::after {
+  content: "04";
+}
+.rts-single-project-one .thumbnail.five::after {
+  content: "05";
+}
+.rts-single-project-one .thumbnail.six::after {
+  content: "06";
+}
+.rts-single-project-one .thumbnail.seven::after {
+  content: "07";
+}
 .rts-single-project-one .project-inner {
-  padding: 40px;
+  padding: 20px;
   border-radius: 0 0 5px 5px;
+  height: 240px;
 }
 @media only screen and (max-width: 479px) {
   .rts-single-project-one .project-inner {
     padding: 25px;
+    height: auto;
   }
 }
 .rts-single-project-one .project-inner a.rts-btn {
@@ -22331,6 +22347,16 @@ body.index-nine .single-case-wrapper {
   z-index: 1;
   transition: 0.3s;
 }
+.rts-single-offer .content-wrapper {
+  height: 200px;
+  padding: 0px;
+}
+@media (max-width: 1024px) {
+  .rts-single-offer .content-wrapper {
+    height: auto;
+    padding: 0px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .rts-single-offer {
     padding: 15px;
@@ -22360,7 +22386,8 @@ body.index-nine .single-case-wrapper {
 }
 .rts-single-offer a.thumbnail img {
   transition: 1.3s;
-  max-height: max-content;
+  height: 250px;
+  object-fit: cover;
   width: 100%;
 }
 .rts-single-offer .content-wrapper .title {
@@ -32485,4 +32512,8 @@ form.appoinment-form select option {
   border: 1px solid #26282F;
   padding: 30px 20px;
   height: 100%;
+}
+.align-center {
+  justify-content: center;
+  display: flex;
 }
