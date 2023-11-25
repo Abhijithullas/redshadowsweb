@@ -32523,3 +32523,9 @@ form.appoinment-form select option {
   height: 100px;
   object-fit: contain;
 }
+.imh {
+  transform: scale(1);
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+}
